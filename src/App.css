@@ -1,0 +1,28 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container {
+   display: grid;
+   place-items: center;
+
+   height: 100vh;
+   background-color: #274555;
+}
+
+.hero {
+   max-width: 700px;
+   width: calc(100% - 2rem);
+}
+.content svg > g > g {
+   fill: #fdc23e;
+}
+h1 {
+   color: #fdc23e;
+   font-size: clamp(0.7rem, 5vw, 1rem);
+   font-weight: 100;
+   letter-spacing: 0.25rem;
+   padding: 1.5rem 0;
+   text-align: center;
+}
